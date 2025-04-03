@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature's Platter</title>
+    <link rel="icon" href="c2-assets/healthy.png" type="png">
+    
+    <!-- daisy UI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font -->
+     <style>
+        .sora-font{
+            font-family: "Sora", sans-serif; 
+        }
+     </style>
+</head>
+<body class="sora-font">
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="navbar bg-base-100 shadow-sm py-5 mx-auto max-w-screen-xl ">
+                <div class="navbar-start">
+                  
+                  <a class="btn btn-ghost text-xl "><img src="c2-assets/logo-header.png" alt=""></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Product</a></li>
+                    <li>
+                      <a>Services</a>
+                    </li>
+                    <li><a>Contact us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end gap-4">
+                  <div class="hidden md:block"  >
+                  <a class="btn border-green-400 ">Login</a>
+                  <a class="btn btn-success text-white">Register</a>
+                </div>
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                      <li><a>Product</a></li>
+                      <li>
+                        <a>Services</a>
+                      </li>
+                      <li><a>Contact</a></li>
+                     
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </nav>
+
+        <!-- Banner Section  -->
+        <div class="w-full bg-gradient-to-b from-white to-orange-300">
+         <!-- banner text  -->
+          <div class="max-w-screen-xl mx-auto py-4"> <h1 class="mx-auto  text-center font-bold text-4xl">Freshness <span class="text-green-600">You Can</span>  
+            <br>
+           <span class="text-green-600">Count</span> On, Prices You’ll Love!</h1>
+            <p class="text-gray-500 text-center w-3/5 mx-auto">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+          </div>
+
+          <!-- Banner Image -->
+           <div class="lg:max-w-screen-xl sm:max-w-screen-sm  mx-auto">
+            <img src="c2-assets/hero-vegetables.png" class="md:w-5\8 mx-auto" alt="">
+           </div>
+
+        </div>
+    </header>
+
+    <!-- Main Section -->
+     <main class="">
+      <div class="max-w-screen-xl mx-auto">
+        <h3 class="text-green-600 font-bold text-3xl text-start py-20">Services</h3>
+        <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-5">
+  
+          <!-- 1st Box -->
+           <div class=" rounded-xl text-center flex items-center flex-col gap-4 p-5 bg-slate-100">
+            <img src="c2-assets/service.png" alt="">
+            <h2 class="font-bold text-xl">24/7 Services </h2>
+            <p class="text-gray-400">We have the best service for you for any time you need</p>
+           </div>
+
+          <!-- 2nd Box -->
+          <div class=" rounded-xl text-center flex items-center flex-col gap-4 p-5 bg-slate-100">
+            <img src="c2-assets/delivery.png" alt="">
+            <h2 class="font-bold text-xl">24/7 Services </h2>
+            <p class="text-gray-400">We have the best delivery service for you for any time you need</p>
+           </div>
+
+           <!-- 3rd box -->
+           <div class=" rounded-xl text-center flex items-center flex-col gap-4 p-5 bg-slate-100">
+            <img src="c2-assets/healthy.png" alt="">
+            <h2 class="font-bold text-xl">24/7 Services </h2>
+            <p class="text-gray-400">We have the best service for you for any time you need</p>
+           </div>
+        </div>
+      </div>
+     </main>
+
+    <!-- Footer Section -->
+     <footer></footer>
+</body>
+</html>
